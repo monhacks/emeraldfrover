@@ -38,9 +38,9 @@ int GameClear(void)
     SetContinueGameWarpStatus();
 
     if (gSaveBlock2Ptr->playerGender == MALE)
-        SetContinueGameWarpToHealLocation(HEAL_LOCATION_CABIN_IN_THE_WOODS);
+        SetContinueGameWarpToHealLocation(HEAL_LOCATION_VERMILLION_CITY);
     else
-        SetContinueGameWarpToHealLocation(HEAL_LOCATION_CABIN_IN_THE_WOODS);
+        SetContinueGameWarpToHealLocation(HEAL_LOCATION_VERMILLION_CITY);
 
     ribbonGet = FALSE;
 

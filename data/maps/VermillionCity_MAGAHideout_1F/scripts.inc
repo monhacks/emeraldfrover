@@ -194,6 +194,31 @@ VermillionCity_MAGAHideout_1F_EventScript_GeneratorAlreadyOff:
 release
 end
 
+VermillionCity_MAGAHideout_1F_EventScript_ScientistNPC1::
+	msgbox VermillionCity_MAGAHideout_1F_Text_Scientist1, MSGBOX_NPC
+	release
+	end
+
+VermillionCity_MAGAHideout_1F_EventScript_ScientistNPC2::
+	msgbox VermillionCity_MAGAHideout_1F_Text_Scientist2, MSGBOX_NPC
+	release
+	end
+
+VermillionCity_MAGAHideout_1F_Text_Scientist1:
+	.string "The experiments here will help push\n"
+	.string "Team MAGA to new heights!$"
+
+VermillionCity_MAGAHideout_1F_Text_Scientist2:
+	.string "Our experments require a lot of\n"
+	.string "power!\p"
+	.string "We have to have 12 generators running\n"
+	.string "at once to keep enough power flowing\l"
+	.string "to our equipment.\p"
+	.string "That's just one reason the owner of\n"
+	.string "Magee's Pleasure Factory's payments\l"
+	.string "are so high, we make him pay for the\l"
+	.string "power we use!$"
+
 VermillionCity_MAGAHideout_1F_Text_GeneratorAlreadyOff:
 	.string "You've already shut the generator off!$"
 

@@ -12685,7 +12685,7 @@
           "map": "MAP_MOUNT_CINNABAR_1F",
           "base_label": "gMountCinnabar_1F0",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 8,
             "mons": [
               {
                 "min_level": 15,
@@ -12754,7 +12754,7 @@
           "map": "MAP_MOUNT_CINNABAR_1F_EAST",
           "base_label": "gMountCinnabar_1F_East0",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 8,
             "mons": [
               {
                 "min_level": 15,
@@ -12823,7 +12823,7 @@
           "map": "MAP_MOUNT_CINNABAR_1F_WEST",
           "base_label": "gMountCinnabar_1F_West0",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 8,
             "mons": [
               {
                 "min_level": 15,
@@ -12892,7 +12892,7 @@
           "map": "MAP_MOUNT_CINNABAR_1F_NORTH",
           "base_label": "gMountCinnabar_1F_North0",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 8,
             "mons": [
               {
                 "min_level": 15,
@@ -12961,7 +12961,7 @@
           "map": "MAP_MOUNT_CINNABAR_1F_NORTH_WEST",
           "base_label": "gMountCinnabar_1F_NorthWest0",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 8,
             "mons": [
               {
                 "min_level": 15,
@@ -13030,7 +13030,7 @@
           "map": "MAP_MOUNT_CINNABAR_2F",
           "base_label": "gMountCinnabar_2F0",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 8,
             "mons": [
               {
                 "min_level": 15,
@@ -13099,7 +13099,7 @@
           "map": "MAP_MOUNT_CINNABAR_2F_SOUTH",
           "base_label": "gMountCinnabar_2F_South0",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 8,
             "mons": [
               {
                 "min_level": 15,
@@ -13168,7 +13168,7 @@
           "map": "MAP_MOUNT_CINNABAR_3F_ENTRANCE",
           "base_label": "gMountCinnabar_3F_Entrance0",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 8,
             "mons": [
               {
                 "min_level": 15,
@@ -13306,7 +13306,7 @@
           "map": "MAP_MOUNT_CINNABAR_3F_WEST",
           "base_label": "gMountCinnabar_3F_West0",
           "land_mons": {
-            "encounter_rate": 5,
+            "encounter_rate": 8,
             "mons": [
               {
                 "min_level": 15,
@@ -13375,7 +13375,7 @@
           "map": "MAP_MOUNT_CINNABAR_2F_WEST",
           "base_label": "gMountCinnabar_2F_West0",
           "land_mons": {
-            "encounter_rate": 5,
+            "encounter_rate": 8,
             "mons": [
               {
                 "min_level": 15,
@@ -14942,7 +14942,7 @@
             ]
           },
           "water_mons": {
-            "encounter_rate": 22,
+            "encounter_rate": 5,
             "mons": [
               {
                 "min_level": 15,

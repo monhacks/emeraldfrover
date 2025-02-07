@@ -400,7 +400,7 @@ static bool8 InitHallOfFameScreen(void)
             if(FlagGet(FLAG_LOST_BOSS_BATTLE))
                 return FALSE;
             else 
-                PlayBGM(MUS_FV_MAGM8_FOREST);
+                PlayBGM(MUS_FV_MAD_WORLD);
             //PlayBGM(MUS_HALL_OF_FAME);
             return FALSE;
         }

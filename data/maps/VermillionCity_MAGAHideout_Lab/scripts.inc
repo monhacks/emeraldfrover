@@ -4,6 +4,7 @@ VermillionCity_MAGAHideout_Lab_MapScripts::
 
 VermillionCity_MAGAHideout_Lab_EventScripts_FinalBoss::
 lock
+	special HealPlayerParty
 	msgbox FinalBoss_Text_MagaLeadScientist, MSGBOX_NPC
 	trainerbattle_no_intro TRAINER_MATT_FINAL_BOSS,MAGAHideout3F_Text_FinalBossDefeated
 	msgbox MAGAHideout3F_Text_FinalBossMonologue, MSGBOX_NPC

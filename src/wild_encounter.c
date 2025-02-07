@@ -534,7 +534,7 @@ static bool8 DoMassOutbreakEncounterTest(void)
 static bool8 DoWildEncounterRateDiceRoll(u16 encounterRate)
 {
     if (Random() % 2880 < encounterRate)
-        return TRUE;
+            return TRUE;
     else
         return FALSE;
 }
@@ -573,6 +573,7 @@ static bool8 DoWildEncounterRateTest(u32 encounterRate, bool8 ignoreAbility)
     }
     if (encounterRate > 2880)
         encounterRate = 2880;
+    Printf("encounterRate =%d", encounterRate);
     return DoWildEncounterRateDiceRoll(encounterRate);
 }
 
@@ -639,7 +640,8 @@ bool8 StandardWildEncounter(u16 currMetaTileBehavior, u16 previousMetaTileBehavi
     else
     {
         if (MetatileBehavior_IsLandWildEncounter(currMetaTileBehavior) == TRUE)
-        {
+        {   
+            Printf("encounterRate = %d", gWildMonHeaders[headerId].landMonsInfo->encounterRate);
             if (gWildMonHeaders[headerId].landMonsInfo == NULL)
                 return FALSE;
             else if (previousMetaTileBehavior != currMetaTileBehavior && !DoGlobalWildEncounterDiceRoll())

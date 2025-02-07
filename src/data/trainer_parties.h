@@ -239,7 +239,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMAGAHideout2[] = {
     {
     .iv = 150,
     .lvl = 28,
-    .species = SPECIES_NIDORINO,
+    .species = SPECIES_GRIMER,
     }
 };
 
@@ -1368,7 +1368,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brooke1[] = {
     {
     .iv = 100,
     .lvl = 25,
-    .species = SPECIES_KABOWL,
+    .species = SPECIES_PIDGEOTTO,
     },
     {
     .iv = 100,
@@ -2798,7 +2798,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bernie1[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_KABOWL,
+    .species = SPECIES_PIDGEOTTO,
     }
 };
 
@@ -4059,7 +4059,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
     {
     .iv = 175,
     .lvl = 19,
-    .species = SPECIES_KABOWL,
+    .species = SPECIES_PIDGEOTTO,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_EMBER, MOVE_QUICK_ATTACK, MOVE_PECK, MOVE_DOUBLE_TEAM},
     .abilityNum = 1
@@ -5670,7 +5670,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dylan5[] = {
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_DODRIO,
+    .species = SPECIES_PIDGEOTTO,
     }
 };
 
@@ -5678,7 +5678,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Maria1[] = {
     {
     .iv = 0,
     .lvl = 19,
-    .species = SPECIES_KABOWL,
+    .species = SPECIES_PIDGEOTTO,
     }
 };
 
@@ -5686,7 +5686,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Maria2[] = {
     {
     .iv = 10,
     .lvl = 28,
-    .species = SPECIES_DODUO,
+    .species = SPECIES_PIDGEOTTO,
     }
 };
 
@@ -5694,7 +5694,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Maria3[] = {
     {
     .iv = 20,
     .lvl = 31,
-    .species = SPECIES_DODUO,
+    .species = SPECIES_PIDGEOTTO,
     }
 };
 
@@ -5702,7 +5702,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Maria4[] = {
     {
     .iv = 30,
     .lvl = 34,
-    .species = SPECIES_DODRIO,
+    .species = SPECIES_PIDGEOTTO,
     }
 };
 
@@ -5710,7 +5710,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Maria5[] = {
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_DODRIO,
+    .species = SPECIES_PIDGEOTTO,
     }
 };
 
@@ -6000,7 +6000,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Phil[] = {
     {
     .iv = 0,
     .lvl = 38,
-    .species = SPECIES_KABOWL,
+    .species = SPECIES_PIDGEOTTO,
     }
 };
 
@@ -6099,7 +6099,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Chester[] = {
     {
     .iv = 0,
     .lvl = 36,
-    .species = SPECIES_KABOWL,
+    .species = SPECIES_PIDGEOTTO,
     },
     {
     .iv = 0,
@@ -6898,7 +6898,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Carol[] = {
     {
     .iv = 0,
     .lvl = 22,
-    .species = SPECIES_KABOWL,
+    .species = SPECIES_PIDGEOTTO,
     },
     {
     .iv = 0,
@@ -7005,7 +7005,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana3[] = {
     {
     .iv = 20,
     .lvl = 47,
-    .species = SPECIES_KABOWL,
+    .species = SPECIES_PIDGEOTTO,
     }
 };
 
@@ -8093,7 +8093,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia1[] = {
     {
     .iv = 0,
     .lvl = 20,
-    .species = SPECIES_KABOWL,
+    .species = SPECIES_PIDGEOTTO,
     },
     {
     .iv = 0,
@@ -10223,7 +10223,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Aidan[] = {
     {
     .iv = 250,
     .lvl = 48,
-    .species = SPECIES_KABOWL,
+    .species = SPECIES_PIDGEOTTO,
     },
     {
     .iv = 250,
@@ -10270,7 +10270,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_KimAndIris[] = {
     {
     .iv = 0,
     .lvl = 52,
-    .species = SPECIES_KABOWL,
+    .species = SPECIES_PIDGEOTTO,
     .moves = {MOVE_EXPLOSION, MOVE_FLY, MOVE_NONE, MOVE_AERIAL_ACE}
     },
     {
@@ -11030,7 +11030,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elijah[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_KABOWL,
+    .species = SPECIES_PIDGEOTTO,
     }
 };
 
@@ -11103,12 +11103,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kyra[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_DODUO,
+    .species = SPECIES_PIDGEOTTO,
     },
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_DODRIO,
+    .species = SPECIES_PIDGEOTTO,
     }
 };
 
@@ -14991,7 +14991,7 @@ static const struct TrainerMonItemCustomMoves sParty_MattBossTest[] = {
     {
     .abilityNum = 0,
     .iv = 255,
-    .lvl = 40,
+    .lvl = 50,
     .species = SPECIES_METAGROSS,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SNEER, MOVE_SNEER, MOVE_SNEER, MOVE_SNEER},
